@@ -22,7 +22,13 @@ class MainActivity: AppCompatActivity() {
     * เมธอด setContentView() สั่งให้ใช้ส่วนแสดงผลที่ชื่อว่า activity_main.xml แสดง
     * ออกมาเป็นหน้าจอแรก (setContentView(R.layout.activity_main))
     *
-    *
+    *  เมื่อผู้ใช้งานคลิกปุ่ม cmdShow จะมีเหตุการณ์ setOnClickListener() ขึ้นมา
+    *  การทำงานภายในเหตุการณ์มี 2 อย่างคือ
+    *  1. กำหนดให้ TextView ที่ชื่อว่า tvOutput แสดงข้อความ "สวัสดี Android-Kotlin"
+    *  2. กำหนดให้แสดงข้อความแจ้งเตือนแบบ Toast ระยะเวลาปรากฏข้อความแบบ Toast สามารถกำหนดได้
+    *     2 แบบคือ ระยะเวลานาน (LENGTH_LONG) กับ ระยะสั้น (LENGTH_SHORT)
+    *  3. สามารถระบุ widget ต่างๆ ได้ ที่อยู่ในไฟล์ activity_main.xml ได้โดย code ของ
+    *     ภาษา Kotlin เกิดจาก Package ที่ชื่อว่า kotlinx.android.synthetic.main.activity_main.*
     *
     *  */
 }
