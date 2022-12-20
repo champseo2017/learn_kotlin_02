@@ -16,4 +16,13 @@ class MainActivity: AppCompatActivity() {
             Toast.makeText(this, "สวัสดี Android-Kotlin", Toast.LENGTH_LONG).show()
         }
     }
+    /*
+    *  เมธอด onCreate() ใน class MainActivity ถูกสั่งให้ทำงานเป็นลำดับแรกโดย
+    * อัตโนมัติ
+    * เมธอด setContentView() สั่งให้ใช้ส่วนแสดงผลที่ชื่อว่า activity_main.xml แสดง
+    * ออกมาเป็นหน้าจอแรก (setContentView(R.layout.activity_main))
+    *
+    *
+    *
+    *  */
 }
