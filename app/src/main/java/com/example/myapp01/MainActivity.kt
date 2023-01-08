@@ -20,11 +20,7 @@ class MainActivity: AppCompatActivity() {
 //            Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG).show()
 //        }
     }
-    /*  การกำหนดตำแหน่งกึ่งกลาง (แนวตั้งหรือแนวนอนของ ConstraintLayout)
-       - การกำหนดแนวตั้งหรือแนวนอน 2 ครั้งกับ ConstraintLayout หมายถึง กำหนดให้ widget นั้นๆ
-        อยู่กึ่งกลาง
-        - ซ้ายและขวาในเวลาเดียวกัน คือ กำหนดตำแหน่งกึ่งกลางตามนแนวนอน
-        - บนและล่างในเวลาเดียวกัน คือ การกำหนดตำแหน่งกึ่งกลางตามแนวตั้ง
-        - การเทน้ำหนัก (app:layout_constraintHorizontal_bias="0.68")
+    /*  การยกเลิกการยึดติดของ ConstraintLayout
+        - คลิกขวาเลือกคำสั่ง Clear Constraints of Selection เพื่อยกเลิกการยึดติด
     * */
 }
