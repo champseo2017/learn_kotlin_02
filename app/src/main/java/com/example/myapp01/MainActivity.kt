@@ -20,7 +20,12 @@ class MainActivity: AppCompatActivity() {
 //            Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG).show()
 //        }
     }
-    /*  การยกเลิกการยึดติดของ ConstraintLayout
-        - คลิกขวาเลือกคำสั่ง Clear Constraints of Selection เพื่อยกเลิกการยึดติด
+    /*  การระบุตำแหน่งด้วย Guideline
+       - Guideline เป็นแนวทางที่สมมติขึ้นมา ทำหน้าที่ช่วยยืนยันตำแหน่งใน ConstraintLayout ง่ายยิ่งขึ้น ซึ้งมี
+         2 ประเภทคือ
+           - อ้างอิงตามแนวนอน (แกน x) เรียกว่า Vertical Guideline
+           - อ้างอิงตามแนวตั้ง (แกน y) เรียกว่า Horizontal Guideline
+           - การอ้างอิงตามแนวนอนเข้ากับ Vertical Guideline และ Horizontal Guideline อ้างอิงตามแนวตั้ง
+           ครอบแล้วไม่ต้องอ้างอิง ConstraintLayout ก็ได้ ถือว่าการอ้างอิงตำแหน่งสมบูรณ์
     * */
 }
